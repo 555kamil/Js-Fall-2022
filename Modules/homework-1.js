@@ -15,7 +15,7 @@ console.log(`\n${fTemp2}°F is equal to ${kTemp}°K`);
 // C -> F
 // T(°F) = T(°C) × 1.8 + 32
 let cTemp3 = 75
-let fTemp3 = cTemp3*1.8 + 32
+let fTemp3 = cTemp3 * 1.8 + 32
 let fTemp = fTemp3.toFixed(2)
 console.log(`\n${cTemp3}°C is equal to ${fTemp}°F`);
 

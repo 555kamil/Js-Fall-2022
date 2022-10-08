@@ -12,16 +12,6 @@
  
  
  
- /**
-  * print the result in console:
-  * 1. the length of sentence-3
-  * 2. does sentence-3 starts with 'HeaLTh' (ignore cases)
-  * 3. does sentence-3 contains with 'Body' (ignore cases)
-  * 4. index of 'BoDy' in sentence3  (ignore cases)
-  * 5. the last-character in sentence-3
-  * 6. word 'BoDy' is present only once. (true or false)
-  */
- 
  const sentence3 = "HeAlTh wAs EArlIer said To Be the AbILitY of the bOdY funcTiOnInG WElL.";
  let sentence_3 = sentence3.length;
  console.log(`\n the length of sentence-3 ${sentence_3}`);

@@ -11,7 +11,7 @@
  console.log(`\n\nmySentenceAfter -> ${mySentenceAfter}`);
  
  
- 
+  
  const sentence3 = "HeAlTh wAs EArlIer said To Be the AbILitY of the bOdY funcTiOnInG WElL.";
  let sentence_3 = sentence3.length;
  console.log(`\n the length of sentence-3 ${sentence_3}`);
@@ -36,6 +36,6 @@
  let s = 'BoDy'
  let n = sentence3.indexOf(s)
  let m = sentence3.lastIndexOf(s)
- let present_body = m===n && m>0 || m!==n ? true:false
+ let present_body = m===n && m>=0 || m!==n ? true:false
  console.log(`\nword ${s} is present only once => ${present_body}`)
 

@@ -8,3 +8,4 @@ const mySentence = 'Pages That you vIeW in tHIs WinDOw wont apPeAr in the broWSe
 let mySentence1 = mySentence.toLowerCase()
 let indexof_w = mySentence1.indexOf('w')
 console.log(`\n${indexof_w}`)
+

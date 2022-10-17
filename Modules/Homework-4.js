@@ -63,7 +63,7 @@
  * (studentScore/maxStore)*100
  * 
  */
- let studentScore = 120;
+ let studentScore =150;
  let maxScore = 150;
  let x = (studentScore/maxScore)*100;
 if (x>=91 && x<=100) {
@@ -100,13 +100,13 @@ if (x>=91 && x<=100) {
  * 
  * 
  */
-let myVar = 15;
-if (myVar%5===0 && myVar%3 !==0){
+let myNumber = 10;
+if (myNumber%5===0 && myNumber%3 !==0){
     console.log('divisible by 5\n');
-} else if (myVar%3===0 && myVar%5 !==0) {
+} else if (myNumber%3===0 && myNumber%5 !==0) {
     console.log('divisible by 3\n')
-} else if (myVar%5===0 && myVar%3===0) {
+} else if (myNumber%5===0 && myNumber%3===0) {
     console.log('divisible by 5 and 3\n')
 } else {
-    console.log(`${myVar}\n`)
+    console.log(`${myNumber}\n`)
 }

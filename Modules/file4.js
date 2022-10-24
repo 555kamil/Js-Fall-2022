@@ -15,12 +15,11 @@
     // if 'swimming' is not present in the array, add it.
     // if already present then print the index at which it is present
 
-    const sports  = ['football', 'Soccer', 'swimming', 'Baseball', 'Rugby', 'Tennis'];
+    const sports  = ['football', 'Soccer','Baseball', 'Rugby', 'Tennis'];
     let checkSport = 'swimming';
     if (sports.includes(checkSport)) {
         console.log(`index of ${checkSport} is ${sports.indexOf(checkSport)}`);
-    } else console.log(`${sports.push(checkSport)}`);
-
-   
-
-    
+    } else {
+        console.log(`${sports.push(checkSport)}`);
+        console.log(`${sports}`);
+    }

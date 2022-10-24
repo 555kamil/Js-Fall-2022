@@ -11,8 +11,8 @@
   * Q2: find the number of words in the given sentence2
   */
  const sentence2 = "HeAlTh wAs EArlIer said To Be the AbILitY of the bOdY funcTiOnInG WElL.";
- let number_Of_Words = sentence2.split(' ')
- console.log(`\nthe number of words in the given sentence2 is ${number_Of_Words.length}\n`);
+ let number_Of_Words = sentence2.split(' ').length
+ console.log(`\nthe number of words in the given sentence2 is ${number_Of_Words}\n`);
 
 /**
   * Q3: Create abbreviation for a 4-word sentence

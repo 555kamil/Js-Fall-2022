@@ -10,7 +10,7 @@
  * 'good Morning' -> 'GM'
  * 'hello dear, how are you doing?' -> HDHAYD
  */
-  function abbrForSent (userSent) {
+ function abbrForSent (userSent) {
     let mySent = userSent.toUpperCase().split(' ');
     let abbrString = '';
     for (let i=0; i<mySent.length; i++) {

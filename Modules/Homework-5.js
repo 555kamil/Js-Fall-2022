@@ -30,7 +30,7 @@
  for (let num = str.length-1; num >= 0; num--) {
     reverseStr2 += str[num] + ' '
  }
- console.log(`\nreverseStr2 -> ${reverseStr2}\n`);   // day great a have
+ console.log(`\nreverseStr2 -> ${reverseStr2.trim()}\n`);   // day great a have
  
  
  /**
